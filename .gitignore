@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# C++ Build Artifacts
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Environment and Secrets
+.env
+.env.local
+*.local.env
+
+# Logs and Runtime Data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Benchmark Results / Scratch
+benchmark/results/*.csv
+benchmark/results/*.json
+!benchmark/results/.gitkeep
+
+# IDE and OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
